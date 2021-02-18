@@ -1,0 +1,14 @@
+{
+  "name": "documentation-templates",
+  "version": "1.0.0",
+  "description": "This is an app that allows users to find nearby libraries in their area.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
