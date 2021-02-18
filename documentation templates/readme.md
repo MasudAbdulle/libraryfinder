@@ -1,6 +1,6 @@
-# TODO: PROJECT NAME HERE
+# Libary Finder 
 
-TODO: Brief outline of your project describing the dataset
+This is an app that allows users to find nearby libraries in their area. 
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
