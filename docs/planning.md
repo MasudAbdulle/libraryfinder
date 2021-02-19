@@ -7,10 +7,10 @@ Our Project is called library finder. It is an app that allows people to find th
 
 ### Business benefits
 Library finder will have many benefits for users including:
-1. finding the closest library can help people with travel costs etc
-2. users can find libraries close to them while on the move 
-3. People can decide if they want to go to that library based on the facilites there
-4. shows you distances inbetween where you are and the library. 
+1. Finding the closest library can help people with travel costs etc
+2. Users can find libraries close to them while on the move.
+3. Users can decide if they want to go to that library based on the facilites there.
+4. Users can see distances inbetween their current location and their library of choice.
 
 ### Options Considered
 TODO: What are some other customer options or leading products that address the same needs?
