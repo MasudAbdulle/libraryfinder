@@ -30,7 +30,7 @@ This is the data we have chosen to base our app around. The data includes all th
 This is the licence the libraries data has, it allows people to copy, publish, distribute, and transmit the Information, adapt the Information,
 exploit the Information commercially and non-commercially for example, by combining it with other Information, or by including it in your own product or application. This shows that we can use this information for our app, the only thing that we must do is acknowledge the source of the information.
 
-3. HTML/JS/MARKUP
+3. HTML/JS/MARKDOWN
 These are the three tools we will use to help us make this project.
 
 4. GitHub
