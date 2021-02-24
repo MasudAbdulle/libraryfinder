@@ -18,7 +18,7 @@ There are no leading mobile apps that specifically find libraries for users, how
 
 ### Expected Risks
 TODO: What are the main risks of this project?
-One of the risks associated with launching an app is the cost. Apps can be expensive to start up and more expensive to maintain. Another risk associated with launching our app is that it may grow too fast making it difficult to maintain and accommodate possibly hundreds of thousands of users weekly/monthly. This can cause an issue that we are not prepared for. Another issue is that users may struggle to take to our new app. According to Build fire Mobile App Download and Usage Statistics (2021) the average person only uses 9 apps per day. This is a very small amount, and it may become difficult for our app to become an app the average person uses regularly.
+One of the risks associated with launching an app is the cost. Apps and websites can be expensive to start up and more expensive to maintain. Another risk associated with launching our app/websites is that it may grow too fast making it difficult to maintain and accommodate possibly hundreds of thousands of users weekly/monthly. This can cause an issue that we cou;d not be prepared for. Another issue is that users may struggle to take to our new app. According to Build fire Mobile App Download and Usage Statistics (2021) the average person only uses 9 apps per day. This is a very small amount, and it may become difficult for our app to become an app the average person uses regularly.
 
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
