@@ -16,8 +16,8 @@ TODO: Describe each use case (one per team member).
 
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
+| **Description** | Person needs to find the closest library to them |
+| **Actors** | Person (looking for library) |
 | **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
 | **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
 | **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
@@ -27,7 +27,7 @@ TODO: Describe each use case (one per team member).
 
 TODO: Your Use-Case diagram should include all use-cases.
 
-![Insert your Use-Case Diagram Here](images/use-case.png)
+![Insert your Use-Case Diagram Here](LFusecase.png)
 
 ## Software Requirements Specification
 ### Functional requirements
