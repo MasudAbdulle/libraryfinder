@@ -4,30 +4,50 @@
 
 ### Actors
 TODO: List and describe the actors/users for this product.
+The users of this app is anyone that needs to find a library.
 
 ### User stories
 TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
     Express these in the form from agile development:- As a (role) I want (goal) so that (benefit). 
+    
+    As a user of Library finder I want to find a library close to me so i can do some work.
+    As a user of library finder I would like to find a library while on the move so i can quickly use a printer there.
+    As a user of libray finder I need to find a library closer to me so i can reduce travel costs.
+
+
 
 ### Use Cases
 TODO: Describe each use case (one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+
+|  USE-CASE  UC1     | find libraires and display them in a graph
 | -------------------------------------- | ------------------- |
-| **Description** | Person needs to find the closest library to them |
-| **Actors** | Person (looking for library) |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Description**    | Person needs to find the closest library to them |
+| **Actors**         | Person (looking for library) |
+| **Assumptions**    | browser/ app supports geolocation</td></tr>
+| **Steps**          | 1) user asks to see a table of nearest libraires<br/>   2)system requests the location of the user<br/> 3) user get the nearest libraires<br/>  4) system puts the nearest libraires into a table for the user to view |
+| **Variations**     | Browser/ app doesnt have geolocation (system can ask for postcode)|
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Issues**         | TODO: OPTIONAL - List of issues that remain to be resolved |
+
+
+|  USE-CASE  UC2    | show additonal details obout library
+| -------------------------------------- | ------------------- |
+| **Description**    | user wants to find additonal details about a libary |
+| **Actors**         | |
+| **Assumptions**    | </td></tr>
+| **Steps**          | |
+| **Variations**     | |
+| **Non-functional** | |
+| **Issues**         | |
+
 
 
 TODO: Your Use-Case diagram should include all use-cases.
 
-![Insert your Use-Case Diagram Here](LFusecase.png)
+![UseCase Diagram](images/usecase.png)
 
 ## Software Requirements Specification
 ### Functional requirements
