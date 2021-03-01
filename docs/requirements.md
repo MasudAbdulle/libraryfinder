@@ -33,6 +33,9 @@ TODO: Describe each use case (one per team member).
 | **Issues**         | TODO: OPTIONAL - List of issues that remain to be resolved |
 
 
+
+
+
 |  USE-CASE  UC2    | show additonal details obout library
 | -------------------------------------- | ------------------- |
 | **Description**    | user wants to find additonal details about a libary |
@@ -55,6 +58,14 @@ TODO: create a list of functional requirements.
     e.g. "The system shall ..."
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
+
+   * FR1 The system shall show a menu of available options.
+   * FR2 The system shall request the location of the user using geo-location from the browser.
+   * FR3 The system shall find the nearest libraries.
+   * FR4 The system shall present a table of the nearest libraries. 
+   * FR5 The system could  get your location from your postcode if geo location is unavailable. 
+   * FR6 The system could have additional details about the libraries email address or phone number. 
+   * FR7 The system won't show the libraries on the map.
 
 
 ### Non-Functional Requirements
