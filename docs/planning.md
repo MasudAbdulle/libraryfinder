@@ -23,10 +23,11 @@ One of the risks associated with launching an app is the cost. Apps and websites
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
 The context diagram includes things that are in some way connected to the project this includes:
-1. Open data Bristol (library location)
+
+1. [Open data Bristol (library location)](https://opendata.bristol.gov.uk/pages/homepage/) <br/>
 This is the data we have chosen to base our app around. The data includes all the public libraries in Bristol that are open to use to the public, our app will help users use this information to benefit them and their needs.
 
-2. Open government licence v 3.0
+2. [Open government licence v 3.0](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) <br/>
 This is the licence the libraries data has, it allows people to copy, publish, distribute, and transmit the Information, adapt the Information,
 exploit the Information commercially and non-commercially for example, by combining it with other Information, or by including it in your own product or application. This shows that we can use this information for our app, the only thing that we must do is acknowledge the source of the information.
 
@@ -48,4 +49,4 @@ This is the person that maintains and makes the app.
 
 
 ## Context Diagram for Library Finder Project
-![Context Diagram for Library Finder Project](images/context_diagram.jpg)
+![Context Diagram for Library Finder Project](images/context_diagram.png)
