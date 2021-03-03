@@ -65,7 +65,7 @@ TODO: create a list of functional requirements.
    * FR4 The system shall present a table of the nearest libraries. 
    * FR5 The system could  get your location from your postcode if geo location is unavailable. 
    * FR6 The system could have additional details about the libraries email address or phone number. 
-   * FR7 The system won't show the libraries on the map.
+   
 
 
 ### Non-Functional Requirements
