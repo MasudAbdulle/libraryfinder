@@ -11,7 +11,7 @@ TODO: Write brief user stories to explain how various actors would interact with
     Express these in the form from agile development:- As a (role) I want (goal) so that (benefit). 
     
     As a user of Library finder I want to find a library close to me so i can do some work.
-    As a user of library finder I would like to find a library while on the move so i can quickly use a printer there.
+    As a user of library finder I would like to find a library on a map while on the move so i can quickly use a printer there.
     As a user of libray finder I need to find a library closer to me so i can reduce travel costs.
 
 
@@ -73,3 +73,4 @@ TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/IS
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
 Indicate which UC the requirement comes from.
+  
