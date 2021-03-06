@@ -22,7 +22,20 @@ TODO: Describe each use case (one per team member).
     Summarise these using the use-case template below.
 
 
-|  USE-CASE  UC1     | find libraires and display them in a graph
+
+
+|  USE-CASE  UC1   | find library and display them on a map
+| -------------------------------------- | ------------------- |
+| **Description**    | |
+| **Actors**         | |
+| **Assumptions**    | </td></tr>
+| **Steps**          | |
+| **Variations**     | |
+| **Non-functional** | |
+| **Issues**         | |
+
+
+|  USE-CASE  UC2     | find libraires and display them in a graph
 | -------------------------------------- | ------------------- |
 | **Description**    | Person needs to find the closest library to them |
 | **Actors**         | Person (looking for library) |
@@ -34,9 +47,7 @@ TODO: Describe each use case (one per team member).
 
 
 
-
-
-|  USE-CASE  UC2    | show additonal details obout library
+|  USE-CASE  UC3  | display additional info about library 
 | -------------------------------------- | ------------------- |
 | **Description**    | user wants to find additonal details about a libary |
 | **Actors**         | |
@@ -45,6 +56,8 @@ TODO: Describe each use case (one per team member).
 | **Variations**     | |
 | **Non-functional** | |
 | **Issues**         | |
+
+
 
 
 
@@ -73,5 +86,11 @@ TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/IS
 Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
 
 Indicate which UC the requirement comes from.
-  
+  * NFR1 The system will refresh itself so they accuracy of the results will remain if the user is moving. - <i>- functionality (UC1+UC2)</i>
+  * NFR2 The system will be able to run on mulitple browsers  <i> - reliablity (all uc's)</i>
+  * NFR3 The system defult will be to only show libraires within a 2 mile distance <i> - Usibilty (UC1+UC2) </i>
+  * NFR4 The system will be effcient as there will be a few clicks from the homepage to the results making it easier for the user <i> - efficently (UC1+2)</i>
+  * NFR5 The system will incorporate some changeability as both geo-location and postcode entry will be supported <i> - maintainabilty (UC1+2)</i>
+  * NFR6 The system will be able to run on both IOS and android aswell as multiple browsers <i> - portabilty all (uc's)</i>
+
    
