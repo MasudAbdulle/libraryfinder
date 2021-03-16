@@ -1,6 +1,7 @@
 # Libary Finder 
 
 This is an app that allows users to find nearby libraries in their area. 
+The data set we are using is libraires  https://opendata.bristol.gov.uk/explore/dataset/libraries/information/
 
 1. [Planning](docs/planning.md)
 2. [Requirements](docs/requirements.md)
