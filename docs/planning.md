@@ -13,11 +13,9 @@ Library finder will have many benefits for users including:
 4. Users can see distances between their current location and their library of choice.
 
 ### Options Considered
-TODO: What are some other customer options or leading products that address the same needs?
 There are no leading mobile apps that specifically find libraries for users, however, google searching libraries near me could address the same needs. However, there are some issues that could arise from this e.g., google could show all libraries including private libraires such as school and university facilities. 
 
 ### Expected Risks
-TODO: What are the main risks of this project?
 One of the risks associated with launching an app is the cost. Apps and websites can be expensive to start up and more expensive to maintain. Another risk associated with launching our app/websites is that it may grow too fast making it difficult to maintain and accommodate possibly hundreds of thousands of users weekly/monthly. This can cause an issue that we cou;d not be prepared for. Another issue is that users may struggle to take to our new app. According to Build fire Mobile App Download and Usage Statistics (2021) the average person only uses 9 apps per day. This is a very small amount, and it may become difficult for our app to become an app the average person uses regularly.
 
 ## Project Scope
