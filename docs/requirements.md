@@ -35,7 +35,7 @@ TODO: Describe each use case (one per team member).
 | **Issues**         | |
 
 
-|  USE-CASE  UC2     | find libraires and display them in a graph
+|  USE-CASE  UC2     | find libraires and display them in a graph masud 
 | -------------------------------------- | ------------------- |
 | **Description**    | Person needs to find the closest library to them |
 | **Actors**         | Person (looking for library) |
