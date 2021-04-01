@@ -9,5 +9,7 @@ Describe it in terms of interactions between the components introduces above, an
 ## User Interface design
 TODO: Specify and develop a user interface mockup using an HTML wireframe.
 
-![Insert your wireframe screenshots for each use-case here](images/wireframe.png)
+![Insert your wireframe screenshots for each use-case here](images/wireframe1.png)
+![Insert your wireframe screenshots for each use-case here](images/wireframe2.png)
+![Insert your wireframe screenshots for each use-case here](images/wireframe3.png)
 TODO: repeat as necessary
