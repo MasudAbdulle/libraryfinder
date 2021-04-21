@@ -1,0 +1,9 @@
+{
+    "db": {
+        "host": "localhost",
+        "user": "root",
+        "password": "root",
+        "database": "new_schema"
+    },
+    "port" : 8080
+}
