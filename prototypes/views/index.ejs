@@ -1,0 +1,69 @@
+<html>
+
+<head>
+ <%- include("templates/header.ejs") %> 
+
+<body>
+  <div class="grid-container">
+    <div id="page-header">
+      <span class="heading">Library Finder</span><br>
+      <div class="w3-bar w3-blue">
+        <button onclick="location.href='map.html?type=view%20in%20map';"
+          class="w3-bar-item w3-button w3-blue ">map</button>
+
+        <button onclick="location.href='index.html?type=view%20as%20table';"
+          class="w3-bar-item w3-button w3-blue ">table</button>
+
+      </div>
+
+      <br>
+
+    </div>
+    <div id="local-navigation">
+      <input type="radio" name="location" value="location" checked>Use my location<br>
+      <input type="radio" name="location" value="default">Enter postcode<br>
+      <input type="text" name="search" placeholder="Search box "><br>
+      <br>
+
+
+
+      <br>
+
+      <button  onclick="location.href = 'search.html?search=search%20postcode'; " class="w3-btn w3-green w3-block w3-round">Search</button>
+    </div>
+    <div id="contextual-naviagation"></div>
+
+    <table class="w3-striped">
+
+      <body>
+        <tr class="w3-blue">
+          <th>Library Name</th><th>Street</th><th>Postcode</th><th>Additional info</th>
+        </tr>
+        <% for (var i=0; i<rows.length; i++) {%>
+          <tr>
+            <td>
+              <%= rows[i]["Library Name"]%>
+            </td>
+            <td>
+              <%= rows[i].Street %> 
+            </td>
+            <td>
+              <%= rows[i].Postcode%>
+            </td>
+            <td>
+             
+              <%= rows[i]["Email Address"] %>,<br><%= rows[i].Telephone %>
+            </td>
+
+          </tr>
+          <% }%>
+
+      </body>
+    </table>
+
+    <br>
+
+</body>
+</head>
+
+</html>
