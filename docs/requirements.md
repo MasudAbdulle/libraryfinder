@@ -29,13 +29,13 @@ TODO: Write brief user stories to explain how various actors would interact with
 | **Issues**         | |
 
 
-|  USE-CASE  UC2     | find libraires and display them in a graph  - masud 
+|  USE-CASE  UC2     | find libraires and display them in a table  - masud 
 | -------------------------------------- | ------------------- |
 | **Description**    | Library  needs to find the closest library to them |
 | **Actors**         | Libarary  user  |
 | **Assumptions**    | browser/ app supports geolocation</td></tr>
-| **Steps**          | 1) user asks to see a table of nearest libraires<br/>   2)system requests the location of the user<br/> 3) user get the nearest libraires<br/>  4) system puts the nearest libraires into a table for the user to view |
-| **Variations**     | Browser/ app doesnt have geolocation (system can ask for postcode)|
+| **Steps**          | 1) user asks to see a table of libraires<br/>    2) user gets a table of libraries<br/>  3) system puts the  libraires into a table for the user to view |
+| **Variations**     | Browser/ app doesnt have geolocation for table presentation (system can ask for postcode)|
 | **Non-functional** |  |
 | **Issues**         |  |
 
