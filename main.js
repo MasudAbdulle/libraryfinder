@@ -8,7 +8,9 @@ const conf = require('./conf.json');
 
 const QUERY = "SELECT * FROM new_schema.libraries;"
 
-const QUERY2 = "SELECT * FROM `new_schema.libraries` WHERE Postcode LIKE = ?";
+const QUERY1 = "SELECT * FROM `new_schema.libraries` WHERE Postcode LIKE = ?";
+
+
 
 var app = express();
 app.set("view engine", "ejs");
@@ -46,6 +48,9 @@ app.get("/search.html", function (request, response) {
     }
   
 }
+
+
+
 app.get("/map.html", function (request, response) {
     var lat = request.query.lat, lon = request.query.lon;
     connection.query(QUERY, function (err, rows, fields) {
