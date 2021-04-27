@@ -8,7 +8,7 @@ const conf = require('./conf.json');
 
 const QUERY = "SELECT * FROM new_schema.libraries;"
 
-const QUERY1 = "SELECT * FROM `new_schema.libraries` WHERE Postcode LIKE = ?";
+const QUERY1 = "USE new_schema; SELECT *FROM `libraries` WHERE POSTCODE = ?";
 
 
 
@@ -21,7 +21,7 @@ app.use(express.static("static"));
 
 
 app.get("/search.html", function (request, response) {
-    connection.query(QUERY2, ["%"+request.query.search+"%"], function (err, rows, fields) {
+    connection.query(QUERY1, ["%"+request.query.Postcode+"%"], function (err, rows, fields) {
         if (err) {
             response.status(500);
             response.send(err);
@@ -68,6 +68,7 @@ app.get("/map.html", function (request, response) {
     
 app.get("/", splash);
 app.get("/index.html", splash);
+app.get("/search.html", splash);
 
 var connection = mysql.createConnection(conf.db);
 
