@@ -20,10 +20,10 @@ TODO: Write brief user stories to explain how various actors would interact with
 
 |  USE-CASE  UC1   | find library and display them on a map
 | -------------------------------------- | ------------------- |
-| **Description**    | |
-| **Actors**         | |
+| **Description**    |Map needs to find a library and display on a map |
+| **Actors**         |Map and Library |
 | **Assumptions**    | </td></tr>
-| **Steps**          | |
+| **Steps**          |1) it can show all libraries on a map. |
 | **Variations**     | |
 | **Non-functional** | |
 | **Issues**         | |
