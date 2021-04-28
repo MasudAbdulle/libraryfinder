@@ -3,12 +3,12 @@ const { request } = require("express");
 var express = require("express");
 const mysql = require('mysql');
 const conf = require('./conf.json');
-
+process.env.NODE_ENV= process.env.NODE_ENV ||'dev';
 
 
 const QUERY = "SELECT * FROM new_schema.libraries;"
 
-const QUERY1 = "USE new_schema; SELECT *FROM `libraries` WHERE POSTCODE = ?";
+const QUERY1 = "SELECT * FROM `libraries` WHERE POSTCODE LIKE ?";
 
 
 
@@ -21,7 +21,7 @@ app.use(express.static("static"));
 
 
 app.get("/search.html", function (request, response) {
-    connection.query(QUERY1, ["%"+request.query.Postcode+"%"], function (err, rows, fields) {
+    connection.query(QUERY1, ["%"+request.query.search+"%"], function (err, rows, fields) {
         if (err) {
             response.status(500);
             response.send(err);
@@ -70,7 +70,7 @@ app.get("/", splash);
 app.get("/index.html", splash);
 app.get("/search.html", splash);
 
-var connection = mysql.createConnection(conf.db);
+var connection = mysql.createConnection(conf[process.env.NODE_ENV].db);
 
 connection.connect(function (err) {
     if (err) {
@@ -80,7 +80,10 @@ connection.connect(function (err) {
     }
 });
 
+if (process.env.NODE_ENV!='test'){
+app.listen(conf[process.env.NODE_ENV].port);
+console.log("server running on https://locoalhost:%s", conf[process.env.NODE_ENV].port);
+}
 
-app.listen(conf.port);
-console.log("server running on https://locoalhost:%s", conf.port);
-
+exports.app = app;
+exports.connnection = connection;

@@ -8,9 +8,14 @@
     "express": "^4.17.1",
     "mysql": "^2.18.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
+  },
+  "directories": {
+    "test": "test"
   },
   "author": "",
   "license": "ISC"
