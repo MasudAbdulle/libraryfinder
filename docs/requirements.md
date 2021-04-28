@@ -31,7 +31,7 @@ TODO: Write brief user stories to explain how various actors would interact with
 
 |  USE-CASE  UC2     | find libraires and display them in a table  - masud 
 | -------------------------------------- | ------------------- |
-| **Description**    | Library  needs to find the closest library to them |
+| **Description**    | Library  needs to find a library  |
 | **Actors**         | Libarary  user  |
 | **Assumptions**    | browser/ app supports geolocation</td></tr>
 | **Steps**          | 1) user asks to see a table of libraires<br/>    2) user gets a table of libraries<br/>  3) system puts the  libraires into a table for the user to view |
