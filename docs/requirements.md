@@ -44,9 +44,9 @@ TODO: Write brief user stories to explain how various actors would interact with
 |  USE-CASE  UC3  | display additional info about library 
 | -------------------------------------- | ------------------- |
 | **Description**    | user wants to find additonal details about a libary |
-| **Actors**         | |
+| **Actors**         | Library |
 | **Assumptions**    | </td></tr>
-| **Steps**          | |
+| **Steps**          | 1) it will show the email address and phone number for the library. |
 | **Variations**     | |
 | **Non-functional** | |
 | **Issues**         | |
