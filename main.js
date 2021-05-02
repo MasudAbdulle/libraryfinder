@@ -64,11 +64,15 @@ app.get("/map.html", function (request, response) {
     });
 });
 
+app.get("/home.html",function(request,response){
+    response.render("home",request.query);
 
+});
     
 app.get("/", splash);
 app.get("/index.html", splash);
 app.get("/search.html", splash);
+app.get("/home.html" , splash);
 
 var connection = mysql.createConnection(conf[process.env.NODE_ENV].db);
 

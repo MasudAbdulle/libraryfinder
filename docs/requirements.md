@@ -34,7 +34,7 @@ TODO: Write brief user stories to explain how various actors would interact with
 | **Description**    | Library  needs to find a library  |
 | **Actors**         | Libarary  user  |
 | **Assumptions**    | browser/ app supports geolocation</td></tr>
-| **Steps**          | 1) user asks to see a table of libraires<br/>    2) user gets a table of libraries<br/>  3) system puts the  libraires into a table for the user to view |
+| **Steps**          | 1) user asks to see a table of libraires this could be all libraries or libraries in a specific postcode<br/>    2) user gets a table of libraries<br/>  3) system puts the  libraires into a table for the user to view |
 | **Variations**     | Browser/ app doesnt have geolocation for table presentation (system can ask for postcode)|
 | **Non-functional** |  |
 | **Issues**         |  |
@@ -66,12 +66,12 @@ TODO: create a list of functional requirements.
     Give each functional requirement a unique ID. e.g. FR1, FR2, ...
     Indicate which UC the requirement comes from.
 
-   * FR1 The system shall show a menu of available options.
-   * FR2 The system shall request the location of the user using geo-location from the browser.
-   * FR3 The system will be able to request and retrive data from a data base
-   * FR4 The system shall present a table of libraries. 
-   * FR5 The system could  get your location from your postcode if geo location is unavailable. 
-   * FR6 The system will have additional details about the libraries email address or phone number. 
+   * FR1 The system shall show a menu of available options.all UC'S
+   * FR2 The system will be able to request and retrive data from a data base all US's
+   * FR3 The system will allow users to search libraries using postcodes UC2
+   * FR4 The system shall present a table of libraries.  US2
+   * FR5 The system will  present a map with all of the libraires UC1
+   * FR6 The system will have additional details about the libraries email address or phone number. UC3
    
 
 
