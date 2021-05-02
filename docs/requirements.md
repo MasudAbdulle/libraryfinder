@@ -20,10 +20,10 @@ TODO: Write brief user stories to explain how various actors would interact with
 
 |  USE-CASE  UC1   | find library and display them on a map
 | -------------------------------------- | ------------------- |
-| **Description**    | |
-| **Actors**         | |
+| **Description**    |Map needs to find a library and display on a map |
+| **Actors**         |Map and Library |
 | **Assumptions**    | </td></tr>
-| **Steps**          | |
+| **Steps**          |1) it can show all libraries on a map. |
 | **Variations**     | |
 | **Non-functional** | |
 | **Issues**         | |
@@ -31,7 +31,7 @@ TODO: Write brief user stories to explain how various actors would interact with
 
 |  USE-CASE  UC2     | find libraires and display them in a table  - masud 
 | -------------------------------------- | ------------------- |
-| **Description**    | Library  needs to find the closest library to them |
+| **Description**    | Library  needs to find a library  |
 | **Actors**         | Libarary  user  |
 | **Assumptions**    | browser/ app supports geolocation</td></tr>
 | **Steps**          | 1) user asks to see a table of libraires<br/>    2) user gets a table of libraries<br/>  3) system puts the  libraires into a table for the user to view |
@@ -43,10 +43,10 @@ TODO: Write brief user stories to explain how various actors would interact with
 
 |  USE-CASE  UC3  | display additional info about library 
 | -------------------------------------- | ------------------- |
-| **Description**    | user wants to find additonal details about a libary |
-| **Actors**         | |
+| **Description**    | User wants to find additonal details about a library |
+| **Actors**         | Library |
 | **Assumptions**    | </td></tr>
-| **Steps**          | |
+| **Steps**          | 1) it will show the email address and phone number for the library. |
 | **Variations**     | |
 | **Non-functional** | |
 | **Issues**         | |
