@@ -55,7 +55,7 @@
       
                     marker = L.marker([<%= rows[i].geo_point_2d %> ]);
                     marker.addTo(map);
-                    marker.bindPopup("<%= rows[i]["Library Name"] %>,<%= rows[i].Street %>,<%= rows[i].Postcode%>");
+                    marker.bindPopup("<%= rows[i]["Library Name"] %>,<%= rows[i].Street %>,<%= rows[i].Postcode%>,<%= rows[i]["Email Address"] %>,<%= rows[i].Telephone %>");
                     
                     <% } %>
                   </script>
