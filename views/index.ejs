@@ -8,10 +8,10 @@
     <div id="page-header">
       <span class="heading">Library Finder</span><br>
       <div class="w3-bar w3-blue">
-        <button onclick="location.href='map.html?type=view%20in%20map';"
+        <button id="map" onclick="location.href='map.html?type=view%20in%20map';"
           class="w3-bar-item w3-button w3-blue ">map</button>
 
-        <button onclick="location.href='index.html?type=view%20as%20table';"
+        <button id="table" onclick="location.href='index.html?type=view%20as%20table';"
           class="w3-bar-item w3-button w3-blue ">table</button>
 
       </div>
@@ -34,11 +34,13 @@
     <div id="contextual-naviagation"></div>
 
     <table class="w3-striped">
-
-      <body>
+<thead>
+      
         <tr class="w3-blue">
           <th>Library Name</th><th>Street</th><th>Postcode</th><th>Additional info</th>
+        </thead>
         </tr>
+        <body>
         <% for (var i=0; i<rows.length; i++) {%>
           <tr>
             <td>
