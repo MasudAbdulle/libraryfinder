@@ -21,9 +21,9 @@ TODO: Write brief user stories to explain how various actors would interact with
 |  USE-CASE  UC1   | find library and display them on a map
 | -------------------------------------- | ------------------- |
 | **Description**    |Map needs to find a library and display on a map |
-| **Actors**         |Map and Library |
+| **Actors**         |Library user |
 | **Assumptions**    | </td></tr>
-| **Steps**          |1) it can show all libraries on a map. |
+| **Steps**          |1) User asks to see a map of all libraries. 2) system makes a map with the libraires on available to view. 3) user can view the map with the libraires |
 | **Variations**     | |
 | **Non-functional** | |
 | **Issues**         | |
@@ -46,7 +46,7 @@ TODO: Write brief user stories to explain how various actors would interact with
 | **Description**    | User wants to find additonal details about a library |
 | **Actors**         | Library |
 | **Assumptions**    | </td></tr>
-| **Steps**          | 1) it will show the email address and phone number for the library. |
+| **Steps**          | 1) user can see libraries in a map or table and would like additional details 2) system shows details in a column when data is presented in a table and a pop up when presented in a map 3) user is able to see additional details.  |
 | **Variations**     | |
 | **Non-functional** | |
 | **Issues**         | |

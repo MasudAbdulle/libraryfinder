@@ -6,7 +6,7 @@ The current version of the system is v1.0, the data set is the Libraries data se
 
 ## Project Structure - masud 
 C:\Users\masud\OneDrive\Documents\GitHub\libraryfinder
-- Docs (contains images UC diagram etc as well as the readme.md planning.md etc 
+``` Docs (contains images UC diagram etc as well as the readme.md planning.md etc 
 - e2e (end to end testing, this contains the  unit test for the program (testcafe))
 - node modules 
 - static(this contains a style sheet and an image of a map i used for i made the actual one)
@@ -16,7 +16,7 @@ C:\Users\masud\OneDrive\Documents\GitHub\libraryfinder
 - main.js (It brings all of the different code together)
 - package.json(this contains json) 
 
-
+```
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
