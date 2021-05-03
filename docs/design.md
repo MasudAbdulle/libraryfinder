@@ -19,4 +19,4 @@ TODO: Specify and develop a user interface mockup using an HTML wireframe.
 ![Insert your wireframe screenshots for each use-case here](images/wireframe1.png)
 ![Insert your wireframe screenshots for each use-case here](images/wireframe2.png)
 ![Insert your wireframe screenshots for each use-case here](images/wireframe3.png)
-TODO: repeat as necessary
+
