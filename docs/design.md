@@ -16,7 +16,7 @@ UC2 - Masud
 ## User Interface design
 TODO: Specify and develop a user interface mockup using an HTML wireframe.
 
-![Insert your wireframe screenshots for each use-case here](images/wireframe1.png)
-![Insert your wireframe screenshots for each use-case here](images/wireframe2.png)
-![Insert your wireframe screenshots for each use-case here](images/wireframe3.png)
+![Insert your wireframe screenshots for each use-case here](images/wireframe1.PNG)
+![Insert your wireframe screenshots for each use-case here](images/wireframe2.PNG)
+![Insert your wireframe screenshots for each use-case here](images/wireframe3.PNG)
 
