@@ -21,6 +21,6 @@ C:\Users\masud\OneDrive\Documents\GitHub\libraryfinder
 ## Software Architecture - Abdi
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
-The software architectural styles we used were; software, hardware, databases and people. These architectural styles compose of a web app, web server and the database. These provide the user with information from the database which can be effective for the user. It can also save the user alot of time by using built-in systems that can modify and signal problems. A simple set up going from one to the other also creates a simple chain of information, so it does not cause any problems.
+The software architectural styles we used were; software, hardware, databases and people. These architectural styles compose of a web app, web server and the database. The web app will rely on the web server to quickly extract information from the database so that the web server can meet the demands of the web app. These provide the user with information from the database which can be effective for the user. It can also save the user alot of time by using built-in systems that can modify and signal problems. A simple set up going from one to the other also creates a chain of information, so it does not cause any problems. This allows the web app to operate smoothly and efficiently with minimal setbacks. 
 
 ![Insert your component Diagram here](images/component.png)
