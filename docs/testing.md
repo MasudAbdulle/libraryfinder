@@ -9,14 +9,11 @@ Create a requirements traceability matrix to validate the completeness of the pr
 
 | Use-Case ID | Requirement ID | Test Case | Status |
 | ----------- | -------------- | --------- | ------ |
-|UC2 MASUD    |                |           |  pass  |
+|UC2 MASUD    |                |       system shows a table of libraries and you can search libraries using postcode    |  pass  |
+UC1 Abdi    |                |    System shows a map of all available libraires       |  pass  |
+UC2 Amira  |                |       additional details of libraires are shown in both map and table viewing options    |  pass  |
 
-UC2 test video
 
-<video width="320" height="240" controls>
-  <source src="libraryfinderUC2.mp4" type="video/mp4">
-   <source src="movie.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video>
+
 
 TODO: Add rows for each test, current status is eg. pass/fail
