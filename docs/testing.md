@@ -9,5 +9,13 @@ Create a requirements traceability matrix to validate the completeness of the pr
 
 | Use-Case ID | Requirement ID | Test Case | Status |
 | ----------- | -------------- | --------- | ------ |
+|UC2 MASUD    |                |           |  pass  |
+
+UC2 test video
+
+<video width="320" height="240" controls>
+  <source src="libraryfinderUC2.mp4" type="video/mp4">
+ 
+</video>
 
 TODO: Add rows for each test, current status is eg. pass/fail
