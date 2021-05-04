@@ -8,6 +8,7 @@ UC1 - Abdi
 The user requests to see a map of libraries. Then the library map finder client will communicate with the server and database through a query. Once this has happened a returned message will give the client a set of libraries, which will then be portrayed on a map for the client.
 
 UC1 - Abdi
+
 ![Sequence Diagram0](https://user-images.githubusercontent.com/80045786/116999122-167a6c00-acd7-11eb-9f05-fbc23aa55918.png)
 
 
