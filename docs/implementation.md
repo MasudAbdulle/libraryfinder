@@ -5,6 +5,7 @@
 The current version of the system is v1.0, the data set is the Libraries data set from Open data Bristol. It contains the library name, full address, telephone and  URL to the website of the libraries. There is one issue with the map as it says there is no geo-location, in its current state it does fulfil use-case 1 but it would be better without out the message of "geo-location isnt supported" message. The configuration data (conf.json) contains the port for the ports for development and testing along with the user names and password to access the mysql data. 
 
 ## Project Structure - masud 
+```
 C:\Users\masud\OneDrive\Documents\GitHub\libraryfinder
 ├───docs
 │   └───images
@@ -1689,8 +1690,8 @@ C:\Users\masud\OneDrive\Documents\GitHub\libraryfinder
 C:\Users\masud\OneDrive\Documents\GitHub\libraryfinder>
 
 
-
 ```
+
 
 ## Software Architecture - Abdi
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
