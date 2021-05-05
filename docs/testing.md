@@ -11,7 +11,7 @@ Create a requirements traceability matrix to validate the completeness of the pr
 | ----------- | -------------- | --------- | ------ |
 |UC2 MASUD    |                |       system shows a table of libraries and you can search libraries using postcode    |  pass  |
 UC1 Abdi    |                |    System shows a map of all available libraires       |  pass  |
-UC2 Amira  |                |       additional details of libraires are shown in both map and table viewing options    |  pass  |
+UC3 Amira  |                |       additional details of libraires are shown in both map and table viewing options    |  pass  |
 
 
 
