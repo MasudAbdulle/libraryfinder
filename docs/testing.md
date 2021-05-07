@@ -1,17 +1,22 @@
 # Testing
 
-## Test Plan
-TODO: Describe any manual and automated (unit) tests. Uniquely identify each test case. Include prerequisites and test data.
+## Test Plan- masud 
+Test case 1 -uc2
+For test case on the system must be able to select table view option the system then presents the tables and gives the additional option the search libraries using postcodes which also worked.
+
+Test case 2 -uc1
+the system must be able  select map view and then to present a map with all of the libraires on it.
+
+Test case 3 
+the system must present additional details when presenting in a table and a map. 
 
 Test Runs
-TODO: For each test described above, indicate the current status. 
-Create a requirements traceability matrix to validate the completeness of the product.
 
 | Use-Case ID | Requirement ID | Test Case | Status |
 | ----------- | -------------- | --------- | ------ |
-|UC2 MASUD    |        FR3&4        |       system shows a table of libraries and you can search libraries using postcode    |  pass  |
-UC1 Abdi    |         FR5       |    System shows a map of all available libraires       |  pass  |
-UC3 Amira  |             FR6   |       additional details of libraires are shown in both map and table viewing options    |  pass  |
+|UC2 MASUD    |        FR3&4        |      1    |  pass  |
+UC1 Abdi    |         FR5       |2      |  pass  |
+UC3 Amira  |             FR6   |     3    |  pass  |
 
 
 
