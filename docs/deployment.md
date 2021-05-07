@@ -9,6 +9,12 @@ Describe the deployment of software components to hardware nodes using a UML Dep
 
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
-
-![Insert screenshots here](images/screenshot.png)
-TODO: Repeat as necessary
+UC2 Masud 
+First step is to select "veiw as table" option 
+![Insert screenshots here](images\uc2step1.PNG)
+Then a table with all libraires appears
+![Insert screenshots here](images\UC2step2.PNG)
+Optional: You can then search for a library in a particular postcode 
+![Insert screenshots here](images\UC2step3.PNG)
+Results with then appear
+![Insert screenshots here](images\UC2step4.PNG)
