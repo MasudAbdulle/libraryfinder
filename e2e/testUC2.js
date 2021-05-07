@@ -12,7 +12,8 @@ fixture `UC2 E2E tests` .page `http://localhost:8080/index.html`
 
   });
 test('first test',async function(t){
-    await t.click('#table') 
-    .expect(Selector('table > tbody').childElementCount).eql(27);
+    await t
+    .click('#table') 
+    .typeText('#search-box', 'BS11');
 
 });
