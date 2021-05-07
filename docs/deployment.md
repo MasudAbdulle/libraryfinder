@@ -8,8 +8,8 @@ Describe the deployment of software components to hardware nodes using a UML Dep
 ![Insert Deployment diagram here](images/deployment.png)
 
 # User guide
-TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
-UC2 Masud 
+UC2 Masud
+
 First step is to select "veiw as table" option 
 ![Step 1 ](images/uc2step1.PNG)
 
