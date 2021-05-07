@@ -9,9 +9,9 @@ Create a requirements traceability matrix to validate the completeness of the pr
 
 | Use-Case ID | Requirement ID | Test Case | Status |
 | ----------- | -------------- | --------- | ------ |
-|UC2 MASUD    |                |       system shows a table of libraries and you can search libraries using postcode    |  pass  |
-UC1 Abdi    |                |    System shows a map of all available libraires       |  pass  |
-UC3 Amira  |                |       additional details of libraires are shown in both map and table viewing options    |  pass  |
+|UC2 MASUD    |        FR3&4        |       system shows a table of libraries and you can search libraries using postcode    |  pass  |
+UC1 Abdi    |         FR5       |    System shows a map of all available libraires       |  pass  |
+UC3 Amira  |             FR6   |       additional details of libraires are shown in both map and table viewing options    |  pass  |
 
 
 
