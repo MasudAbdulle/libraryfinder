@@ -68,7 +68,7 @@ TODO: create a list of functional requirements.
 
    * FR1 The system shall show a menu of available options.all UC'S
    * FR2 The system will be able to request and retrive data from a data base all US's
-   * FR3 The system will allow users to search libraries using postcodes UC2
+   * FR3 The system will allow users to search libraries using postcodes while in table format UC2
    * FR4 The system shall present a table of libraries.  US2
    * FR5 The system will  present a map with all of the libraires UC1
    * FR6 The system will have additional details about the libraries email address or phone number. UC3
