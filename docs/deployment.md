@@ -19,5 +19,5 @@ Then a table with all libraires appears
 Optional: You can then search for a library in a particular postcode 
 ![Step 3](images/UC2step3.PNG)
 
-Results with then appear
+Results will then appear
 ![Step 4](images/UC2step4.PNG)
