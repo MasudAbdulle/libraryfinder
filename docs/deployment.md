@@ -1,8 +1,9 @@
 # Deployment
 
 ## Release Notes
-TODO: Describe the current version of the system (with version number. Include system dependencies ands software tools used.
-Are there any known issues? Provide the URL of the deployed system. 
+
+The current version of the system is v1.0.The system is run on the local server 8080, the software tools used are Express, EJS and MYSQL. The librairyfinder website also has dependencies to all of those tools as they all the website to run as it does. There is one issue with the system as when the 'view in map' option is chosen a message that says "browser doesnt support geo-location" pops up and then the map appears afterwards.
+
 Describe the deployment of software components to hardware nodes using a UML Deployment diagram.
 
 ![Insert Deployment diagram here](images/deployment.png)
