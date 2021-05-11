@@ -18,8 +18,13 @@ The user can request to see a table of libraries from from the menus.The library
 UC2 - Masud 
 ![Sequence Diagram](images/SequenceDiagram.png)
 
+
 UC3 - Amira
-The user requests to see libraries in a table or map. The library finder client interacts with a database through a query, the data is then placed in a table and also on the map. 
+The user requests to see libraries in a table or map. The library finder client interacts with a database through a query, the data is then placed in a table and also on the map.
+
+UC3 - Amira
+![Sequence Diagram](images/sequence diagram.PNG)
+
 
 ## User Interface design
 TODO: Specify and develop a user interface mockup using an HTML wireframe.
