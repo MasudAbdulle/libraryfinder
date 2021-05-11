@@ -23,7 +23,7 @@ UC3 - Amira
 The user requests to see libraries in a table or map. The library finder client interacts with a database through a query, the data is then placed in a table and also on the map.
 
 UC3 - Amira
-![Sequence Diagram](images/sequence diagram.PNG)
+
 
 
 ## User Interface design
