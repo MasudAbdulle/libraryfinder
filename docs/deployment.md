@@ -11,10 +11,10 @@ Describe the deployment of software components to hardware nodes using a UML Dep
 # User guide
 UC2 Masud
 
-First step is to select "veiw as table" option 
+First step is to select "veiw libraries in table" option 
 ![Step 1 ](images/uc2step1.PNG)
 
-Then a table with all libraires appears
+Then a table with all libraries appears
 ![Step 2 ](images/UC2step2.PNG)
 
 Optional: You can then search for a library in a particular postcode 
