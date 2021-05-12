@@ -22,3 +22,21 @@ Optional: You can then search for a library in a particular postcode
 
 Results will then appear
 ![Step 4](images/UC2step4.PNG)
+
+
+UC3 Amira
+
+Select the "view libraries in table" option
+![UC3step1](https://user-images.githubusercontent.com/80134408/118030389-22140580-b35d-11eb-967b-8f900cd392ce.PNG)
+
+A table of libraries will appear with additional information which includes phone numbers and email addresses
+![UC3step2](https://user-images.githubusercontent.com/80134408/118030612-715a3600-b35d-11eb-851a-716ee376b7ed.PNG)
+
+OR 
+
+Select the "view libraries in a map" option
+![UC3step1](https://user-images.githubusercontent.com/80134408/118030970-e594d980-b35d-11eb-8438-171022f8b159.PNG)
+
+A map of libraries will appear, click on one of the libraries and the additional information will be displayed
+![UC3step4](https://user-images.githubusercontent.com/80134408/118031198-2b51a200-b35e-11eb-9570-b430a5fe8e7d.PNG)
+
