@@ -32,10 +32,10 @@ TODO: Write brief user stories to explain how various actors would interact with
 
 |  USE-CASE  UC2     | find libraires and display them in a table  - masud 
 | -------------------------------------- | ------------------- |
-| **Description**    | Library user needs to find a library  |
+| **Description**    | Library user needs to find a library and wants to see libraries in a table format   |
 | **Actors**         | Libarary  user  |
-| **Assumptions**    | browser/ app supports geolocation</td></tr>
-| **Steps**          | 1) user asks to see a table of libraires this could be all libraries or libraries in a specific postcode<br/>    2) user gets a table of libraries<br/>  3) system puts the  libraires into a table for the user to view |
+| **Assumptions**    | </td></tr>
+| **Steps**          | 1) user asks to see a table of libraires this could be all libraries or libraries in a specific postcode<br/>    2) system gets the appropriate table of libraries<br/>  3) system puts the  libraires into a table for the user to view |
 | **Variations**     | Browser/ app doesnt have geolocation for table presentation (system can ask for postcode)|
 | **Non-functional** |  |
 | **Issues**         |  |
@@ -82,9 +82,9 @@ TODO: create a list of functional requirements.
 Indicate which UC the requirement comes from.
   * NFR1 The system will refresh itself so they accuracy of the results will remain if the user is moving. - <i>- functionality (UC1+UC2)</i>
   * NFR2 The system will be able to run on mulitple browsers  <i> - reliablity (all uc's)</i>
-  * NFR3 The system defult will be to only show libraires within a 2 mile distance <i> - Usibilty (UC1+UC2) </i>
+  * NFR3 The system defult will be to show all maps(so the map will be zoomed out) when libraires are shown in the map format <i> - Usibilty (UC1+UC2) </i>
   * NFR4 The system will be effcient as there will be a few clicks from the homepage to the results making it easier for the user <i> - efficently (UC1+2)</i>
-  * NFR5 The system will incorporate some changeability as both geo-location and postcode entry will be supported <i> - maintainabilty (UC1+2)</i>
-  * NFR6 The system will be able to run on both IOS and android aswell as multiple browsers <i> - portabilty all (uc's)</i>
+  * NFR5 The system could incorporate some changeability as both geo-location and postcode entry will be supported <i> - maintainabilty (UC1+2)</i>
+  * NFR6 The system could run on multiple browsers <i> - portabilty all (uc's)</i>
 
    
