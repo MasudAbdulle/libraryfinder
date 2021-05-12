@@ -1,3 +1,4 @@
+![sequence diagram](https://user-images.githubusercontent.com/80134408/118027659-14a94c00-b35a-11eb-894f-3d6f0aa8d10f.PNG)
 # Design
 
 ## Behavioural design
@@ -23,7 +24,7 @@ UC3 - Amira
 The user requests to see libraries in a table or map. The library finder client interacts with a database through a query, the data is then placed in a table and also on the map.
 
 UC3 - Amira
-![Sequence Diagram](docs/images/sequence diagram.PNG)
+![sequence diagram](https://user-images.githubusercontent.com/80134408/118027659-14a94c00-b35a-11eb-894f-3d6f0aa8d10f.PNG)
 
 
 ## User Interface design
