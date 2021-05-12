@@ -84,7 +84,7 @@ Indicate which UC the requirement comes from.
   * NFR2 The system will be able to run on mulitple browsers  <i> - reliablity (all uc's)</i>
   * NFR3 The system defult will be to show all maps(so the map will be zoomed out) when libraires are shown in the map format <i> - Usibilty (UC1+UC2) </i>
   * NFR4 The system will be effcient as there will be a few clicks from the homepage to the results making it easier for the user <i> - efficently (UC1+2)</i>
-  * NFR5 The system could incorporate some changeability as both geo-location and postcode entry will be supported <i> - maintainabilty (UC1+2)</i>
-  * NFR6 The system could run on multiple browsers <i> - portabilty all (uc's)</i>
+  * NFR5 The system could incorporate some changeability as both geo-location and postcode entry will be supported <i> - flexibility (UC1+2)</i>
+  * NFR6 The system will be updated if the libraires database on open data bristol is updated <i>maintainablilty -  all (uc's)</i>
 
    
