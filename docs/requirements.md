@@ -13,7 +13,7 @@ TODO: Write brief user stories to explain how various actors would interact with
     As a user of library finder I would like to find a library on a map while on the move so i can quickly use a printer there.
     As a user of libray finder I need to find a library closer to me so i can reduce travel costs.
     As a user of library finder I need to see additional details of the libraries e.g. phone number email etc. 
-    As a user of libraryfinder i want to search for library using postcodes in a table
+    As a user of libraryfinder i want to search for library using postcodes in a table format
 
 
 ### Use Cases
